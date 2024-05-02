@@ -1,1 +1,16 @@
-tickers = ['AAPL', 'MSFT', 'GOOGL']
+tickers = ['AAPL', 'MSFT', 'NVDA', 'GOOGL', 'AF', 'RNO']
+
+[streamlit]
+page_title = 'Financial data'
+layout = 'wide'
+sidebar_state = 'expanded'
+data_title = '# Report'
+multiselect_tickers_label = 'Tickers'
+button_label = 'Get data'
+income_statements_name = 'Income statements'
+balance_sheet_statements_name = 'Balance sheet statements'
+cash_flow_statements_name =  'Cash flow statements'
+
+[expanders]
+describe = 'Describe'
+datasets = 'Datasets'
